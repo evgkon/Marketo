@@ -1,0 +1,29 @@
+﻿@using Marketo;
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+@*<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="//app-sj31.marketo.com/js/forms2/js/forms2.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            alert('hello');
+        });
+
+        <form id="mktoForm_1008"></form>
+        MktoForms2.loadForm("//app-sj31.marketo.com", "682-XWP-826", 1008);
+    </script>*@
+
+@*<script src="//app-sj31.marketo.com/js/forms2/js/forms2.min.js"></script>
+    <form id="mktoForm_1008"></form>
+    <script>MktoForms2.loadForm("//app-sj31.marketo.com", "682-XWP-826", 1008);</script>*@
+
+@HtmlHelpers.Label("AAA");
+@HtmlHelpers.MarketoForm();
+
+
+
